@@ -1,0 +1,19 @@
+{
+  "name": "mr4cli-number-guessing-game",
+  "version": "1.0.3",
+  "description": "A cli number guessing game in TypeScript is an interactive program where users attempt to guess a randomly generated number within a specified range, typically through a command-line interface.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahab Rizwan",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
