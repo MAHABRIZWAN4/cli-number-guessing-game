@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
+console.log("Welcome to the number guessing game:");
 const randomNumber = Math.floor(Math.random() * 15 + 1);
 const answer = await inquirer.prompt([
   {
@@ -16,4 +17,3 @@ if (answer.userGuessedNumber === randomNumber) {
     `You lost,It's Okay try again.The correct number was ${randomNumber}`
   );
 }
- 
